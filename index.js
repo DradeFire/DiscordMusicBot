@@ -6,12 +6,12 @@ const fs = require("fs")
 const { Player } = require("discord-player")
 
 dotenv.config()
-const TOKEN = process.env.TOKEN
+const TOKEN = 'MTA1MTA4MTQ2MzM5MjY0OTI3Ng.GiFRiV.BeaiM-dxF1p26nZfvnBuNLCTaiIY1KVutc3790'
 
 const LOAD_SLASH = process.argv[2] == "load"
 
-const CLIENT_ID = "924846888929337354"
-const GUILD_ID = "924832445050781766"
+const CLIENT_ID = "1051081463392649276"
+const GUILD_ID = "244562008320507915"
 
 const client = new Discord.Client({
     intents: [
